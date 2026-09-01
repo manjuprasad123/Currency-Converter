@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currency Converter</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+  <div class="container">
+    <h2>Currency Converter</h2>
+    
+    <form>
+      <div class="amount">
+        <p>Enter Amount:</p>
+        <input type="text" value="100"/>
+      </div>
+    
+      <div class="dropdown">
+        <div class="select-container">
+          <p>From:</p>
+          <img src="https://flagsapi.com/US/flat/64.png">
+          <select class="from" name="from">
+
+          </select>
+        </div>
+
+        <i class="fa-solid fa-arrow-right-arrow-left"></i>
+
+        <div class="select-container">
+          <p>To:</p>
+          <img src="https://flagsapi.com/IN/flat/64.png">
+          <select class="to" name="to">
+
+          </select>
+        </div>
+      </div>
+      <div class="msg">1 USD = 94.9086577 INR</div>
+      <button>Get Exchange Rate</button>
+    </form>
+
+  </div>
+
+  <script src="codes.js"></script>
+  <script src="Curr.js"></script>
+</body>
+</html>
