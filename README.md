@@ -12,8 +12,6 @@ A modern and responsive **Currency Converter** built using **HTML, CSS, and Java
 
 ## 📸 Project Preview
 
-Add a screenshot of your project here after uploading it to GitHub.
-
 ![Currency Converter Screenshot](Currency-Converter.png)
 
 ---
