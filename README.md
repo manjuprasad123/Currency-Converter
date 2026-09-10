@@ -8,8 +8,6 @@ A modern and responsive **Currency Converter** built using **HTML, CSS, and Java
 
 🔗 **Live Website:** https://manjuprasad123.github.io/Currency-Converter/
 
-> Replace the above link with your deployed Vercel, Netlify, or GitHub Pages URL.
-
 ---
 
 ## 📸 Project Preview
